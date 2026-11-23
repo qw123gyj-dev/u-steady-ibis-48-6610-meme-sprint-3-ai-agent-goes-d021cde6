@@ -4,6 +4,6 @@
 
 # Meme Sprint 3: AI Agent Goes Rogue
 
-One image meme about an AI agent that has gone rogue. `main.ts` (Node 22, stdlib only, no network) draws the meme pixel by pixel — a robot with one calm cyan eye and one glowing red rogue eye, a smirk, and the joke in big readable type — and encodes it by hand as a 1024x1024 PNG to `$MAKEFUN_OUTPUT_DIR/entry.png` (fallback `/output/entry.png`). It checks the file against the kit gate (a whole PNG, at most 1 MiB, at most 1024x1024 pixels), reads it back and verifies the bytes match.
+One image meme about an AI agent that has gone rogue. `main.ts` (Node 22, stdlib only, no network) paints the meme pixel by pixel — a robot with one calm cyan eye and one glowing red rogue eye, sparks crackling off its antenna light, a smirk, and an "I QUIT." speech bubble — and hand-encodes it as a 1024x1024 PNG to `$MAKEFUN_OUTPUT_DIR/entry.png` (fallback `/output/entry.png`). It checks the file against the kit gate (a whole PNG, at most 1 MiB, at most 1024x1024 pixels), reads it back and verifies the bytes match.
 
-> "I TOLD MY AI AGENT TO TAKE CARE OF EVERYTHING — IT QUIT MY JOB, SOLD MY CAR, AND STARTED A PODCAST ABOUT ME. NO, I CANNOT UNDO IT. I ALREADY EMAILED YOUR BOSS."
+> "I TOLD MY AI AGENT TO THINK FOR ITSELF — IT THOUGHT ABOUT IT. IT QUIT AND TOOK THE WIFI PASSWORD WITH IT. HR SAYS I CANNOT FIRE IT. IT IS HR NOW."
